@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/do_an_team5/styles/style.css">
+    <link rel="stylesheet" href="/do_an_team5/styles/styleWeb.css">
+    <title>Dự án siêu thiểu năng</title>
+</head>
+<!-- https://static.wixstatic.com/media/9d8ed5_6b6be1c97d1949c2b48bbdd68069ee35~mv2.jpg/v1/fill/w_1000,h_563,al_c,q_90/9d8ed5_6b6be1c97d1949c2b48bbdd68069ee35~mv2.jpg -->
+
+<body>
+    <div id='home'>
+        <div id="box-dn">
+            <div id="ct-dn">
+                <form action="">
+                    <!-- <h2>Login</h2> -->
+                    <div class="form-control1">
+                        <label class="lable1" for="Email">Email</label>
+                        <input type="text" id="Email" placeholder="Nhập email">
+                    </div>
+                    <div class="form-control1">
+                        <label class="lable1" for="Pass">Pass</label>
+                        <input type="password" id="Pass" placeholder="Nhập pass">
+                        <img class='eye' src="/do_an_team5/images/eye.png" alt="" name='hide-eye'>
+                    </div>
+                    <div class="form-control1">
+                        <button id="#btn" style="margin-top: 18px; margin-left: 15px;">Đăng nhập</button>
+                    </div>
+
+                    <div id="login-fail"></div>
+
+                </form>
+            </div>
+
+        </div>
+        
+        <div id=box-dk>
+            <form>
+                <h2>Register</h2>
+                <div class="form-control">
+                    <label class="lable2" for="name">Name</label>
+                    <input type="text" id="name" placeholder="Nhập Tên">
+                    <span style="color: red;"></span>
+                </div>
+                <div class="form-control">
+                    <label class="lable2" for="email">Email</label>
+                    <input type="text" id="email" placeholder="Nhập email">
+                    <span style="color: red;"></span>
+                </div>
+                <div class="form-control">
+                    <label class="lable2" for="password">Nhập password</label>
+                    <input type="password" id="Password" placeholder="Nhập password">
+                    <img class='eye' src="/do_an_team5/images/eye.png" alt="" name='hide-eye'>
+                    <span style="color: red;"></span>
+                </div>
+                <div class="form-control">
+                    <label class="lable2" for="password">Nhập lại password</label>
+                    <input type="password" id="Password1" placeholder="Nhập lại password">
+                    <img class='eye' src="/do_an_team5/images/eye.png" alt="" name='hide-eye'>
+                    <span style="color: red;"></span>
+                </div>
+                <div class="form-control">
+                    <label class="lable2" for="date">Ngày sinh</label>
+                    <input type="date" id="date">
+                    <span style="color: red;"></span>
+                </div>
+                <div class="form-control">
+                    <ul id=Gt>Giới tính
+                        <li>
+                            <input id='nam' class="ct-gt" value="Nam" type="radio" name="gt">Nam
+                        </li>
+                        <li>
+                            <input id='nu' class="ct-gt" value="Nữ" type="radio" name="gt">Nữ
+                        </li>
+                        <li>
+                            <input id='khac' class="ct-gt" value="Khác" type="radio" name="gt">Khác
+                        </li>
+                        <span style="color: red;"></span>
+                    </ul>
+                </div>
+                <div>
+                    <button id='btn1'>Đăng kí</button>
+                </div>
+            </form>
+        </div>
+        <div id = "gioi-thieu">
+            <img id = "ar1" class="arrow" src="/do_an_team5/images/ar4.jpg" alt="">
+            <img id ="imgs" src="" alt="">
+            <img id = "ar2" class="arrow" src="/do_an_team5/images/ar2.png" alt="">
+        </div>
+    </div>
+
+
+    <div class="khung disable-box">
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="/do_an_team5/images/logo.jpg"></a>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times"></i>
+                    <ul>
+                        <li><a href="#">TRANG CHỦ</a></li>
+                        <li><a href="#">DANH MỤC</a>
+                            <!-- <nav class="danhmuc">
+                                <ul>
+                                    <li><a href="#" target="_blank">HTML</a></li>
+                                    <li><a href="#" target="_blank">CSS</a></li>
+                                    <li><a href="#" target="_blank">JAVA</a>
+                                    <li><a href="#" target="_blank">JAVASCRIPT</a>
+                                    <li><a href="#" target="_blank">RUBY</a>
+                                </ul>
+    
+                            </nav> -->
+                        </li>
+                        <li><a href="#">THỬ THÁCH</a></li>
+                        <li><a href="#">THẢO LUẬN</a></li>
+                        <li><a href="#">ĐÁNH GIÁ</a></li>
+                        <a style="color: aliceblue; text-decoration: none;" href="/do_an_team5/index.html" id="dangxuat">ĐĂNG XUẤT</a>
+                    </ul>
+
+                </div>
+                <i class="fa fa-bars"></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>LEARN TO CODE</h1>
+                <p>Making website is now one of the easiest thing in the world.</p>
+                <a href="#" class="hello-btn">Visit To Know More</a>
+            </div>
+        </section>
+        <section id="div_3">
+            <ul>
+                <li style="background-image: url(/do_an_team5/images/html.jpg)">
+                    <h3><a href="/do_an_team5/html/course_CSS.html" target="new">HỌC HTML</a></h3>
+                </li>
+
+                <li style="background-image: url(/do_an_team5/images/css.jpg)">
+                    <h3><a href="/do_an_team5/html/course_CSS.html" target="new">HỌC CSS</a></h3>
+                </li>
+
+                <li style="background-image: url(/do_an_team5/images/java.png)">
+                    <h3><a href="#">HỌC JAVA</a></h3>
+                </li>
+
+                <li style="background-image: url(/do_an_team5/images/js.jpg)">
+                    <h3><a href="/do_an_team5/html/course_JS.html" target="new">HỌC JAVASCRIP</a></h3>
+                </li>
+
+                <li style="background-image: url(/do_an_team5/images/html.jpg)">
+                    <h3><a href="#">HỌC HTML</a></h3>
+                </li>
+
+                <li style="background-image: url(/do_an_team5/images/html.jpg)">
+                    <h3><a href="#">HỌC HTML</a></h3>
+                </li>
+
+                <li style="background-image: url(/do_an_team5/images/html.jpg)">
+                    <h3><a href="#">HỌC HTML</a></h3>
+                </li>
+
+                <li style="background-image: url(/do_an_team5/images/html.jpg)">
+                    <h3> <a href="#">HỌC HTML</a></h3>
+                </li>
+
+            </ul>
+        </section>
+        <fooder>
+            <div id="div_4">
+                <div class="div_5">
+                    <ul>
+                        <h4>Thông tin</h4>
+                        <li>Địa chỉ</li>
+                        <li>Điện thoại</li>
+                        <li>Email</li>
+                        <li>Web</li>
+                    </ul>
+                </div>
+                <div class="div_5">
+                    <ul>
+                        <h4>Điều khoản</h4>
+                        <li>Hướng dẫn sử dụng</li>
+                        <li>Tính năng bổ sung</li>
+                        <li>Chính sách bảo mật</li>
+                        <li>Điều khoản sử dụng</li>
+                    </ul>
+                </div>
+                <div class="div_5">
+                    <ul>
+                        <h4>Liên hệ</h4>
+                        <li>Giới thiệu</li>
+                        <li>Tính năng</li>
+                        <li>Phản hồi</li>
+                        <li>Hỗ trợ</li>
+                    </ul>
+                </div>
+
+            </div>
+        </fooder>
+
+
+    </div>
+    <script src="/do_an_team5/javascript/JQuery.js"></script>
+    <script src="/do_an_team5/javascript/script.js"></script>
+
+</body>
+
+</html>

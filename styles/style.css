@@ -1,0 +1,172 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#home{
+    background-image: url(https://img4.thuthuatphanmem.vn/uploads/2020/07/05/nen-background-cong-nghe-dep_035955535.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+}
+#box-dn{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(90, 173, 184);
+    display: block;
+}
+#ct-dn{
+    float: right;
+    margin-right: 10px;
+    display: block;
+}
+h2{
+    text-align: center;
+    color: antiquewhite;
+}
+.form-control{
+    margin-left: 30px;
+}
+.lable1{
+    display: block;
+    color: rgb(0, 0, 0);
+}
+.form-control1{
+    margin-left: 20px;
+    float: left;
+}
+#login-fail{
+    clear: left;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 30px;
+    float: left;
+    color: rgba(235, 176, 15, 1);
+    
+}
+.thanh-cong{
+    border: 2px solid chartreuse;
+    border-radius: 5px;
+}
+.that-bai{
+    border-radius: 5px;
+    border: 2px solid brown;
+}
+.disable-box{
+    display: none;
+}
+#thong-tin{
+    margin-left: 400px;
+    margin-top: 200px;
+}
+#box-dk{
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 300px;
+    height: 480px;
+    border-radius: 5px;
+    background-color: rgb(90, 173, 184);
+    box-shadow: 5px 6px rgba(21, 5, 37, 0.5);
+}
+.ct-gt{
+    float: right;
+    margin-right: 210px;
+}
+.lable2{
+    display: block;
+}
+#btn1{
+    clear: left;
+    width: 95%;
+    margin-left: 2.5%;
+    color: rgb(92, 19, 228);
+    font-weight: bold;
+    height: 30px;
+    border-radius: 10px;
+}
+#Gt{
+    list-style-type: none;
+}
+#box-dk span{
+    height: 25px;
+    display: block;
+}
+.eye{
+    width: 18px;
+    position: fixed;
+}
+.eye:hover{
+    box-shadow: 2px 2px 2px 0px;
+}
+/* #Password{
+    width: 170px;
+    background-size: 20px;
+    background-position: 150px;
+    background-repeat: no-repeat;
+    background-image: url(eye.png);
+} */
+
+
+#gioi-thieu{
+    /* background-color: rgb(142, 228, 228);
+    width: 700px; 
+    height: 450px;
+    display: block;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 20px; */
+    /* background-color: rgb(142, 228, 228); */
+    background-color: rgba(142, 228, 228, 0.8);
+    width: 51%; 
+    height: 70%;
+    display: block;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.arrow{
+    /* width: 30px;
+    opacity: calc(0.3);
+    margin-top: 30%;
+    transition-property: calc();
+    transition-duration: 0.5s;
+    transition-timing-function: linear; */
+    width: 5%;
+    opacity: calc(0.3);
+    margin-top: 30%;
+    transition-property: calc();
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+#ar1{
+    float: left;
+}
+#ar2{
+    float: right;
+}
+.arrow:hover{
+    opacity: calc(1);
+    transform: scale(1.3);
+    
+}
+#imgs{
+    /* width: 600px;
+    height: 300px;
+    margin-top: 80px;
+    margin-left: 20px; */
+    width: 86%;
+    height: 300px;
+    margin-top: 80px;
+    margin-left: 1.5%;
+    border: 5px solid black;
+    border-radius: 10px;
+}
